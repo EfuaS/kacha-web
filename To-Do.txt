@@ -1,0 +1,7 @@
+Input validation for all screens
+check voucher code if already redeemed
+menu active according to page
+automate pin Input
+implement progress loader between API calls
+implement feedback comments
+fix login redirection

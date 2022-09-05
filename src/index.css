@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .monserat{
+        @apply font-monserat;
+    }
+
+    .DMSans{
+        @apply font-DMSans;
+    }
+    
+    .sourceSans{
+        @apply font-source;
+    }
+
+
+} 
+
+body{
+  overflow-x: hidden;
+}
+
+.kacha-orange{
+    background: #DB5E00;
+}
+
+.kacha-mustard{
+  background: #FFCC00;
+  opacity: 0.4;
+}
+
+.compSec{
+  width: 301px;
+height: 88px;
+
+background: #F8F8F8;
+}
+
+.bggray{
+    width: 301px;
+  background: #F8F8F8;
+
+}
+
+.selected{
+  background: red;
+
+}
+
+.kacha-noOp{
+    background: #FFCC00;
+
+}
+.menuBG{
+    background: #F1F5F9;
+}
+
+
+.orangeTxt{
+    color: #DB5E00;
+
+}
+
+.menuDimensions{
+    height: 25vh;
+
+}
+
+.fade-orange{
+    background: #FDEADC;
+}
+
+.formTop{
+    margin-top: 40vh;
+}
+
+.inputCol{
+    background: #F0F0F0;
+}
+
+.formDimensions{
+width: 343px;
+    height: 456px;
+
+}
+
+.receiptDimensions{
+  width: 343px;
+height: 343px;
+}
+
+.adsDimensions{
+  /* position: absolute; */
+width: 547px;
+height: 456px;
+left: 638px;
+top: 394px;
+background: #F9F9F9;
+}
+
+ .menuStyle{
+    /* top: 14vh; */
+width: 926px;
+/* height: 118px; */
+
+}
+/*
+.servStyle{
+left: 231px;
+top: 10vh;
+} */
+
+.secSection{width: 926px;}
+
+.TransInfoDimensions{
+  width: 343px;
+height: 181px;
+}
+
+.modalGreen{
+    background: #17C37E;
+}
+
+.modalText{
+    color:#17C37E;
+}
+
+.radioCol{
+  background: #FCFCFC;
+}
+
+.Pininput {
+  width: 54px;
+  height: 48px;
+  background: #F0F0F0;
+}
+
+/* toggle switch */
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 24px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #FFE0C9;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  left: 4px;
+  bottom: 0px;
+  background-color: #DB5E00;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #ccc;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px white;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.fifty-vh{
+  height: 50vh;
+}
+
+.ten-vw{
+  width: 30vw;
+}
